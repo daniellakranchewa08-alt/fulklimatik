@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Политика за поверителност – Фул Клима Сървисиз</title>
+<meta name="description" content="Как „Фул Клима Сървисиз“ ЕООД обработва и защитава личните данни. Бисквитки и права по GDPR.">
+<meta name="theme-color" content="#0e1c2f">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/tailwind.css">
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="bg-surface font-body-md text-body-md text-on-surface antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed">
+<a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] bg-primary-container text-on-primary px-space-md py-space-sm rounded-lg">Към съдържанието</a>
+<header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
+  <div class="bg-primary-container">
+    <div class="max-w-7xl mx-auto px-gutter h-10 flex items-center justify-between text-body-sm font-body-sm">
+      <div class="flex items-center gap-space-lg text-primary-fixed-dim min-w-0">
+        <span class="flex items-center gap-space-xs truncate"><span class="material-symbols-outlined text-[16px] text-secondary-fixed-dim">location_on</span><span class="truncate" data-company="address">кв. Васил Левски, ул. „Велбъжд“ 54, 1517 София</span></span>
+        <span class="hidden lg:inline-flex items-center gap-space-xs bg-surface-container-high/20 px-space-xs py-0.5 rounded"><span class="w-2 h-2 rounded-pill bg-secondary-fixed-dim animate-pulse"></span><span class="text-on-primary font-label-sm text-label-sm uppercase tracking-wider">Денонощно 24/7</span></span>
+      </div>
+      <a class="hidden sm:flex items-center gap-space-xs font-label-md text-label-md text-on-primary hover:text-secondary-fixed-dim transition-colors shrink-0" href="tel:+359886705409" data-company-tel>
+        <span class="relative flex h-2.5 w-2.5"><span class="animate-ping absolute inline-flex h-full w-full rounded-pill bg-secondary-fixed-dim opacity-75"></span><span class="relative inline-flex rounded-pill h-2.5 w-2.5 bg-secondary-fixed-dim"></span></span>
+        <span data-company="phone">088 670 5409</span>
+      </a>
+    </div>
+  </div>
+  <div class="max-w-7xl mx-auto px-gutter h-20 flex items-center justify-between">
+    <a href="index.html" class="flex items-center gap-space-md" aria-label="Фул Клима Сървисиз – начало">
+      <span class="w-10 h-10 rounded-xl bg-primary-container flex items-center justify-center text-secondary-fixed-dim shrink-0"><span class="material-symbols-outlined text-[24px]">mode_fan</span></span>
+      <span class="flex flex-col">
+        <span class="font-headline-sm text-headline-sm text-on-surface tracking-tight leading-none">Фул Клима Сървисиз</span>
+        <span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider mt-1">Климатични инженерни решения</span>
+      </span>
+    </a>
+    <nav class="hidden xl:flex items-center gap-space-sm" aria-label="Основно меню">
+      <a class="px-space-md py-space-xs rounded-lg font-title-md text-title-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" href="index.html#uslugi">Услуги</a>
+      <a class="px-space-md py-space-xs rounded-lg font-title-md text-title-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" href="index.html#za-nas">За нас</a>
+      <a class="px-space-md py-space-xs rounded-lg font-title-md text-title-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" href="index.html#uslugi">Цени &amp; Пакети</a>
+      <a class="px-space-md py-space-xs rounded-lg font-title-md text-title-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" href="index.html#kontakti">Контакти</a>
+    </nav>
+    <div class="flex items-center gap-space-sm">
+      <a href="index.html#quick-booking" class="hidden md:inline-flex items-center gap-space-xs bg-primary-container text-on-primary px-space-md py-space-sm rounded-xl font-label-md text-label-md hover:bg-secondary transition-all">Заяви оглед</a>
+      <button id="menu-btn" type="button" class="xl:hidden w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-on-surface" aria-label="Меню" aria-expanded="false" aria-controls="mobile-menu"><span class="material-symbols-outlined">menu</span></button>
+    </div>
+  </div>
+  <nav id="mobile-menu" class="hidden xl:hidden border-t border-surface-container bg-surface-container-lowest" aria-label="Мобилно меню">
+    <div class="max-w-7xl mx-auto px-gutter py-space-sm flex flex-col">
+      <a class="py-space-sm font-title-md text-title-md text-on-surface border-b border-surface-container" href="index.html#uslugi">Услуги</a>
+      <a class="py-space-sm font-title-md text-title-md text-on-surface border-b border-surface-container" href="index.html#za-nas">За нас</a>
+      <a class="py-space-sm font-title-md text-title-md text-on-surface border-b border-surface-container" href="index.html#uslugi">Цени &amp; Пакети</a>
+      <a class="py-space-sm font-title-md text-title-md text-on-surface border-b border-surface-container" href="index.html#kontakti">Контакти</a>
+      <a class="py-space-sm font-title-md text-title-md text-secondary" href="index.html#quick-booking">Заяви безплатен оглед →</a>
+    </div>
+  </nav>
+</header>
+<main id="main" class="w-full pt-[120px] bg-surface">
+<section class="bg-surface-container-low border-b border-surface-container py-space-xl">
+  <div class="max-w-3xl mx-auto px-gutter">
+    <a href="index.html" class="inline-flex items-center gap-1 font-label-md text-label-md text-secondary hover:underline mb-space-md"><span class="material-symbols-outlined text-[18px]">arrow_back</span>Към началната страница</a>
+    <span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest block mb-space-xs">Защита на личните данни</span>
+    <h1 class="font-headline-lg-mobile text-headline-lg-mobile md:font-headline-lg md:text-headline-lg text-on-surface">Политика за поверителност</h1>
+    <p class="font-body-sm text-body-sm text-on-surface-variant mt-space-sm">В сила от 20.11.2026 г.</p>
+  </div>
+</section>
+<article class="legal max-w-3xl mx-auto px-gutter py-space-xl">
+  <p>Настоящата политика описва как <span data-company="name">„Фул Клима Сървисиз“ ЕООД</span> събира, използва и защитава личните данни на посетителите на този уебсайт и на клиентите си, в съответствие с Регламент (ЕС) 2016/679 (GDPR) и Закона за защита на личните данни.</p>
+
+  <h2 id="administrator">1. Администратор на лични данни</h2>
+  <table>
+    <tr><th>Фирма</th><td data-company="name">„Фул Клима Сървисиз“ ЕООД</td></tr>
+    <tr><th>ЕИК</th><td data-company="eik">000000000</td></tr>
+    <tr><th>Седалище и адрес</th><td data-company="address">кв. Васил Левски, ул. „Велбъжд“ 54, 1517 София</td></tr>
+    <tr><th>Имейл</th><td><a href="mailto:office@example.bg" data-company-mail data-company="email">office@example.bg</a></td></tr>
+    <tr><th>Телефон</th><td><a href="tel:+359886705409" data-company-tel data-company="phone">088 670 5409</a></td></tr>
+  </table>
+  <p>За всички въпроси относно личните Ви данни можете да се свържете с нас на посочения имейл или адрес.</p>
+
+  <h2 id="danni">2. Какви лични данни събираме</h2>
+  <ul>
+    <li><strong>Данни от формата за запитване:</strong> име, телефонен номер, избрана услуга, квартал/район и описание на проблема, както и дата и час на даденото съгласие.</li>
+    <li><strong>Данни при телефонно обаждане или имейл:</strong> телефонен номер, имейл адрес и информацията, която ни предоставяте.</li>
+    <li><strong>Данни при изпълнение на услуга:</strong> адрес на обекта, данни за фактуриране (име или фирма, ЕИК/ДДС номер), информация за уреда.</li>
+    <li><strong>Технически данни:</strong> IP адрес и тип браузър, които се обработват автоматично от хостинг доставчика за сигурността и работата на сайта.</li>
+  </ul>
+  <p>Не събираме специални категории лични данни и не искаме ЕГН чрез сайта.</p>
+
+  <h2 id="tseli">3. Цели и правни основания</h2>
+  <table>
+    <tr><th>Цел</th><th>Правно основание (чл. 6, ал. 1 от GDPR)</th></tr>
+    <tr><td>Отговор на запитване, уговаряне на оглед или посещение</td><td>Буква „а“ – Вашето съгласие и буква „б“ – предприемане на стъпки преди сключване на договор</td></tr>
+    <tr><td>Изпълнение на поръчана услуга, гаранционно обслужване</td><td>Буква „б“ – изпълнение на договор</td></tr>
+    <tr><td>Издаване на фактури и счетоводна отчетност</td><td>Буква „в“ – законово задължение (Закон за счетоводството, ЗДДС)</td></tr>
+    <tr><td>Сигурност на сайта и защита от злоупотреби</td><td>Буква „е“ – легитимен интерес</td></tr>
+    <tr><td>Аналитични бисквитки (само ако бъдат включени)</td><td>Буква „а“ – Вашето съгласие чрез банера за бисквитки</td></tr>
+  </table>
+
+  <h2 id="srok">4. Срок на съхранение</h2>
+  <ul>
+    <li>Запитвания, които не са довели до договор – до 6 месеца от последния контакт.</li>
+    <li>Данни, свързани с изпълнена услуга и гаранция – за срока на гаранцията и до изтичане на давностните срокове за претенции (до 5 години).</li>
+    <li>Счетоводни документи – 10 години, съгласно Закона за счетоводството.</li>
+  </ul>
+  <p>След изтичане на сроковете данните се изтриват или анонимизират.</p>
+
+  <h2 id="poluchateli">5. На кого предоставяме данни</h2>
+  <p>Не продаваме и не предоставяме личните Ви данни на трети лица за маркетинг. Данни могат да бъдат достъпни за:</p>
+  <ul>
+    <li>нашите служители и техници, които изпълняват заявката;</li>
+    <li>доставчици, които обработват данни от наше име – хостинг, имейл услуги, услуга за обработка на формата, счетоводител – по договор и при гаранции за защита;</li>
+    <li>държавни органи, когато това се изисква по закон.</li>
+  </ul>
+  <p>Когато доставчик се намира извън Европейското икономическо пространство, предаването става само при подходящи гаранции съгласно глава V от GDPR (напр. решение за адекватност или стандартни договорни клаузи).</p>
+
+  <h2 id="prava">6. Вашите права</h2>
+  <p>Имате право:</p>
+  <ul>
+    <li>на достъп до личните данни, които обработваме за Вас;</li>
+    <li>на коригиране на неточни данни;</li>
+    <li>на изтриване („правото да бъдеш забравен“), когато няма основание за по-нататъшно обработване;</li>
+    <li>на ограничаване на обработването;</li>
+    <li>на преносимост на данните;</li>
+    <li>на възражение срещу обработване на основание легитимен интерес;</li>
+    <li>да оттеглите съгласието си по всяко време, без това да засяга законосъобразността на обработването преди оттеглянето.</li>
+  </ul>
+  <p>За да упражните правата си, пишете ни на <a href="mailto:office@example.bg" data-company-mail data-company="email">office@example.bg</a>. Ще отговорим до един месец от получаване на искането.</p>
+  <p>Ако смятате, че правата Ви са нарушени, можете да подадете жалба до <strong>Комисията за защита на личните данни</strong>: гр. София 1592, бул. „Проф. Цветан Лазаров“ № 2, <a href="https://www.cpdp.bg" target="_blank" rel="noopener">www.cpdp.bg</a>, kzld@cpdp.bg.</p>
+
+  <h2 id="biskvitki">7. Бисквитки (cookies)</h2>
+  <p>Бисквитките са малки текстови файлове, които се записват в браузъра Ви. Използваме ги по следния начин:</p>
+  <table>
+    <tr><th>Вид</th><th>Предназначение</th><th>Срок</th></tr>
+    <tr><td><strong>Необходими</strong> – <code>fk_cookie_consent</code> (локално хранилище)</td><td>Запомня избора Ви в банера за бисквитки („Приемам“ или „Откажи“). Без него банерът ще се показва при всяко посещение.</td><td>До изтриване от браузъра</td></tr>
+    <tr><td><strong>Аналитични</strong></td><td>В момента сайтът не използва аналитични или рекламни бисквитки. Ако бъдат добавени, ще се зареждат само след натискане на „Приемам“.</td><td>–</td></tr>
+  </table>
+  <p>При натискане на „Откажи“ не се зареждат никакви незадължителни бисквитки и сайтът работи изцяло. Можете да промените избора си по всяко време от връзката <a href="#" data-cookie-settings>„Настройки на бисквитките“</a> във футъра или като изтриете бисквитките от настройките на браузъра си.</p>
+  <p>Сайтът зарежда шрифтове от Google Fonts и показва изображения от сървъри на Google. При това браузърът Ви изпраща IP адреса си към тези сървъри. Връзката към Google Maps отваря външен сайт, за който важи политиката на Google.</p>
+
+  <h2 id="sigurnost">8. Сигурност</h2>
+  <p>Прилагаме подходящи технически и организационни мерки за защита на данните – криптирана връзка (HTTPS), ограничен достъп само за упълномощени служители и надеждни доставчици.</p>
+
+  <h2 id="promeni">9. Промени в политиката</h2>
+  <p>Можем да актуализираме тази политика. Актуалната версия е публикувана на тази страница с датата, от която е в сила.</p>
+</article>
+</main>
+<footer class="w-full bg-primary-container text-primary-fixed-dim pt-space-xl pb-space-lg">
+  <div class="max-w-7xl mx-auto px-gutter">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter mb-space-xl">
+      <div class="space-y-space-md">
+        <span class="font-headline-sm text-headline-sm text-on-primary block">Фул Клима Сървисиз ЕООД</span>
+        <p class="font-body-sm text-body-sm leading-relaxed">Сертифицирано инженерно обслужване, експресен ремонт и монтаж на домашни, мултисплит и индустриални климатични и термопомпени системи на територията на София и региона.</p>
+        <div class="flex items-center gap-space-xs text-on-primary font-label-md text-label-md pt-space-xs"><span class="material-symbols-outlined text-[18px] text-secondary-fixed-dim">verified</span><span>Лицензирани техници по F-Gas</span></div>
+      </div>
+      <div class="space-y-space-md">
+        <h3 class="font-title-md text-title-md text-on-primary tracking-wide">Категории услуги</h3>
+        <ul class="space-y-space-xs font-body-sm text-body-sm">
+          <li><a class="flex items-center gap-space-xs hover:text-on-primary" href="index.html#uslugi"><span class="material-symbols-outlined text-[16px] text-secondary-fixed-dim">chevron_right</span>Монтаж на инверторни климатици</a></li>
+          <li><a class="flex items-center gap-space-xs hover:text-on-primary" href="index.html#uslugi"><span class="material-symbols-outlined text-[16px] text-secondary-fixed-dim">chevron_right</span>Диагностика и авариен ремонт 24/7</a></li>
+          <li><a class="flex items-center gap-space-xs hover:text-on-primary" href="index.html#uslugi"><span class="material-symbols-outlined text-[16px] text-secondary-fixed-dim">chevron_right</span>Профилактика и дезинфекция</a></li>
+          <li><a class="flex items-center gap-space-xs hover:text-on-primary" href="index.html#uslugi"><span class="material-symbols-outlined text-[16px] text-secondary-fixed-dim">chevron_right</span>Зареждане с фреон (R32, R410A)</a></li>
+          <li><a class="flex items-center gap-space-xs hover:text-on-primary" href="index.html#uslugi"><span class="material-symbols-outlined text-[16px] text-secondary-fixed-dim">chevron_right</span>Термопомпи и VRF/VRV централи</a></li>
+        </ul>
+      </div>
+      <div class="space-y-space-md">
+        <h3 class="font-title-md text-title-md text-on-primary tracking-wide">Контакти</h3>
+        <div class="space-y-space-sm font-body-sm text-body-sm">
+          <div class="flex items-start gap-space-xs"><span class="material-symbols-outlined text-[18px] text-secondary-fixed-dim shrink-0">location_on</span><span data-company="address">кв. Васил Левски, ул. „Велбъжд“ 54, 1517 София</span></div>
+          <div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-secondary-fixed-dim shrink-0">call</span><a class="text-on-primary hover:text-secondary-fixed-dim font-label-md text-label-md" href="tel:+359886705409" data-company-tel data-company="phone">088 670 5409</a></div>
+          <div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-secondary-fixed-dim shrink-0">mail</span><a class="text-on-primary hover:text-secondary-fixed-dim break-all" href="mailto:office@example.bg" data-company-mail data-company="email">office@example.bg</a></div>
+          <div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-secondary-fixed-dim shrink-0">schedule</span><span>Денонощно 24/7</span></div>
+        </div>
+      </div>
+      <div class="space-y-space-md">
+        <h3 class="font-title-md text-title-md text-on-primary tracking-wide">Фирмени данни</h3>
+        <dl class="font-body-sm text-body-sm space-y-space-xs">
+          <div><dt class="inline text-on-primary-container">Фирма: </dt><dd class="inline text-on-primary" data-company="name">„Фул Клима Сървисиз“ ЕООД</dd></div>
+          <div><dt class="inline text-on-primary-container">ЕИК: </dt><dd class="inline text-on-primary" data-company="eik">000000000</dd></div>
+          <div><dt class="inline text-on-primary-container">Седалище и адрес: </dt><dd class="inline" data-company="address">кв. Васил Левски, ул. „Велбъжд“ 54, 1517 София</dd></div>
+          <div><dt class="inline text-on-primary-container">Имейл: </dt><dd class="inline"><a class="hover:text-on-primary break-all" href="mailto:office@example.bg" data-company-mail data-company="email">office@example.bg</a></dd></div>
+        </dl>
+      </div>
+    </div>
+    <div class="pt-space-lg border-t border-white/10 flex flex-col md:flex-row items-center justify-between text-body-sm font-body-sm text-on-primary-container gap-space-md">
+      <p>© <span data-year>2026</span> „Фул Клима Сървисиз“ ЕООД. Всички права запазени.</p>
+      <div class="flex flex-wrap items-center justify-center gap-x-space-md gap-y-space-xs">
+        <a class="hover:text-on-primary transition-colors" href="usloviya-za-polzvane.html">Условия за ползване</a>
+        <a class="hover:text-on-primary transition-colors" href="politika-za-poveritelnost.html">Политика за поверителност</a>
+        <a class="hover:text-on-primary transition-colors" href="usloviya-za-polzvane.html#garantsiya">Гаранционни условия</a>
+        <a class="hover:text-on-primary transition-colors" href="#" data-cookie-settings>Настройки на бисквитките</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Мобилна аварийна лента (фиксирана долу) -->
+<div class="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-primary-container border-t border-white/10 px-gutter-mobile py-2 flex gap-2">
+  <a href="tel:+359886705409" data-company-tel class="flex-1 inline-flex items-center justify-center gap-space-xs bg-on-tertiary-container text-on-primary rounded-xl py-3 font-label-md text-label-md"><span class="material-symbols-outlined text-[20px]">call</span>Обади се 24/7</a>
+  <a href="index.html#quick-booking" class="flex-1 inline-flex items-center justify-center gap-space-xs bg-white/10 text-on-primary rounded-xl py-3 font-label-md text-label-md"><span class="material-symbols-outlined text-[20px]">edit_note</span>Запитване</a>
+</div>
+
+<!-- Банер за бисквитки -->
+<div id="cookie-banner" class="hidden fixed z-[60] left-gutter-mobile right-gutter-mobile bottom-[76px] md:bottom-space-lg md:left-auto md:right-space-lg md:max-w-md bg-surface-container-lowest rounded-xl p-space-lg" style="box-shadow:0 20px 32px -8px rgba(11,25,44,.18),0 8px 16px -4px rgba(11,25,44,.08);border:1px solid rgba(30,62,98,.12)" role="dialog" aria-live="polite" aria-labelledby="cookie-title" aria-describedby="cookie-text">
+  <div class="flex items-start gap-space-sm mb-space-sm">
+    <span class="w-9 h-9 rounded-xl bg-surface-container flex items-center justify-center text-secondary shrink-0"><span class="material-symbols-outlined text-[20px]">cookie</span></span>
+    <div>
+      <h2 id="cookie-title" class="font-title-md text-title-md text-on-surface">Използваме бисквитки</h2>
+      <p id="cookie-text" class="font-body-sm text-body-sm text-on-surface-variant mt-1">Сайтът използва само необходими бисквитки за правилната си работа. С Ваше съгласие можем да използваме и аналитични бисквитки, за да подобряваме услугите си. Можете да откажете без това да ограничи сайта. <a class="text-secondary underline" href="politika-za-poveritelnost.html#biskvitki">Научете повече</a>.</p>
+    </div>
+  </div>
+  <div class="flex gap-space-sm">
+    <button id="cookie-reject" type="button" class="flex-1 px-space-md py-space-sm rounded-xl font-label-md text-label-md text-on-surface bg-transparent hover:bg-[rgba(0,180,216,0.08)] transition-colors" style="border:1.5px solid #1E3E62">Откажи</button>
+    <button id="cookie-accept" type="button" class="flex-1 px-space-md py-space-sm rounded-xl font-label-md text-label-md bg-primary-container text-on-primary hover:bg-secondary transition-colors">Приемам</button>
+  </div>
+</div>
+
+<script src="assets/site.js"></script>
+</body>
+</html>

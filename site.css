@@ -1,0 +1,50 @@
+html { scroll-behavior: smooth; scroll-padding-top: 130px; }
+html, body { margin: 0; padding: 0; }
+body { overscroll-behavior: none; }
+.material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; line-height: 1; }
+
+/* Фокус на полетата – 2px Cryo Cyan (DESIGN.md) */
+.fk-input { border: 1px solid #CBD5E1; background: #EDF2F7; transition: border-color .15s, box-shadow .15s, background .15s; }
+.fk-input:focus { outline: none; border-color: #00B4D8; box-shadow: 0 0 0 1px #00B4D8; background: #fff; }
+.fk-input:user-invalid { border-color: #ba1a1a; }
+
+/* Отметка за съгласие – тъмносин фон с бяла отметка */
+.fk-check { appearance: none; -webkit-appearance: none; width: 20px; height: 20px; flex-shrink: 0; margin-top: 1px;
+  border: 1.5px solid #1E3E62; border-radius: 4px; background: #fff; cursor: pointer; display: grid; place-content: center; transition: background .15s, border-color .15s; }
+.fk-check::after { content: ""; width: 10px; height: 6px; border-left: 2px solid #fff; border-bottom: 2px solid #fff; transform: rotate(-45deg) translate(1px, -1px); opacity: 0; }
+.fk-check:checked { background: #0B192C; border-color: #0B192C; }
+.fk-check:checked::after { opacity: 1; }
+.fk-check:focus-visible { outline: 2px solid #00B4D8; outline-offset: 2px; }
+.fk-check.fk-error { border-color: #ba1a1a; box-shadow: 0 0 0 3px rgba(186, 26, 26, .15); }
+
+/* Карти – елевация ниво 1/2 */
+.fk-card { box-shadow: 0 2px 8px -2px rgba(11,25,44,.06), 0 1px 3px 0 rgba(11,25,44,.04); border: 1px solid rgba(30,62,98,.08); }
+.fk-card:hover { box-shadow: 0 12px 24px -6px rgba(11,25,44,.09), 0 4px 8px -2px rgba(11,25,44,.04); border-color: rgba(0,180,216,.4); }
+.fk-accent-cool { border-top: 2px solid #00B4D8 !important; }
+.fk-accent-heat { border-top: 2px solid #FF6B35 !important; }
+
+/* Банер за бисквитки */
+#cookie-banner { transform: translateY(16px); opacity: 0; transition: transform .25s ease, opacity .25s ease; }
+#cookie-banner.is-visible { transform: translateY(0); opacity: 1; }
+
+/* Правни страници */
+.legal h2 { font-family: "Plus Jakarta Sans", sans-serif; font-size: 22px; line-height: 30px; font-weight: 700; color: #001c38; margin: 2.25rem 0 .75rem; scroll-margin-top: 130px; }
+.legal h3 { font-family: "Inter", sans-serif; font-size: 16px; font-weight: 600; color: #001c38; margin: 1.5rem 0 .5rem; }
+.legal p, .legal li { font-size: 15px; line-height: 26px; color: #44474c; }
+.legal p { margin: 0 0 .9rem; }
+.legal ul, .legal ol { margin: 0 0 1rem 1.25rem; }
+.legal ul { list-style: disc; }
+.legal ol { list-style: decimal; }
+.legal li { margin-bottom: .35rem; }
+.legal a { color: #00677d; text-decoration: underline; text-underline-offset: 2px; }
+.legal table { width: 100%; border-collapse: collapse; margin: .5rem 0 1.25rem; font-size: 14px; }
+.legal th, .legal td { text-align: left; padding: .6rem .75rem; border: 1px solid #dce9ff; vertical-align: top; color: #44474c; }
+.legal th { background: #EDF2F7; color: #001c38; font-weight: 600; }
+
+@media (max-width: 767px) {
+  body { padding-bottom: 64px; } /* място за фиксираната аварийна лента */
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .animate-ping, .animate-pulse { animation: none !important; }
+}
